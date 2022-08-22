@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../logo.svg';
+import gdmain from '../../assets/gdmain.png';
 import './navbar.css';
 
 const Navbar = () => {
@@ -10,19 +10,19 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} />
+          <img src={gdmain} />
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">What is GPT3?</a></p>
-          <p><a href="#possibility">Open AI</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p>
+          <p><a href="#wgdsc">What is GDSC?</a></p>
+          <p><a href="#explore">Explore</a></p>
+          <p><a href="#features">What you will learn</a></p>
+          <p><a href="#library">Library</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <p><a href="https://forms.gle/azoRXc4EMkXjD5757" target="_blank">Become a member</a></p>
+        <button type="button"><a href="https://gdsc.community.dev/vishwakarma-institute-of-information-technology-pune/" target="_blank">Connect</a></button>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu

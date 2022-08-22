@@ -5,16 +5,20 @@ import './whatGPT3.css';
 const WhatGPT3 = () => (
   <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
     <div className="gpt3__whatgpt3-feature">
-      <Feature title="What is GPT-3" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by." />
+      <Feature title="What is GDSC-VIIT ?" text="Google Developer Student Club will gie you the chance to gain mentorship from Google,
+join a global community of leaders, practice by sharing your skills, help students grow by build solutions for real life problems."></Feature>
+
+
+
     </div>
     <div className="gpt3__whatgpt3-heading">
-      <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
-      <p>Explore the Library</p>
+      <h1 className="gradient__text">How will I improve my skills?</h1>
+      {/* <p>Explore the Library</p> */}
     </div>
     <div className="gpt3__whatgpt3-container">
-      <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-      <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
-      <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Feature title="Connect" text="Meet students interested in developer technologies at our university. All are welcome, including those with diverse backgrounds" />
+      <Feature title="Learn" text="Learn about a range of technical topics and gain new skills through hands-on workshops, events, talks, and project-building activities" />
+      <Feature title="Grow" text="Apply new learnings to build great solutions for local problems. Advance your skills, career, and network. Give back to our community by helping others learn, too." />
     </div>
   </div>
 );

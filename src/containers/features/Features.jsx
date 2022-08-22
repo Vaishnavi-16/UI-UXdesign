@@ -4,28 +4,29 @@ import './features.css';
 
 const featuresData = [
   {
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    title: 'Gain mentorship from Google.',
+    text: 'Dont miss out the chance for becoming the campus facilitator for various google technologies',
   },
   {
-    title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    title: 'Join a global community of leaders.',
+    text: 'Our prime focus is to learn and disseminate knowledge.',
   },
   {
-    title: 'Message or am nothing',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    title: 'Practice by sharing your skills.',
+    text: 'We will not only focus on conducting events but also to propagate learning and work for building a person profile.',
   },
   {
-    title: 'Really boy law county',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    title: 'Help students grow.',
+    text: 'Together, students learn the latest in Machine Learning, Android App Development, Google Cloud Platform, Flutter, and so much more.',
   },
 ];
 
 const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-      <p>Request Early Access to Get Started</p>
+      <h1 className="gradient__text">
+      If you want to upgrade yourself with the Google technologies and join the technical community, you are at the right place!</h1>
+    
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (
